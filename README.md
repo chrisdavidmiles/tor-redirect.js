@@ -4,6 +4,7 @@ Redirect TOR traffic on your website from a clearnet domain to a TOR hidden serv
 
 * [Issues](#issues)
 * [Changelog](#changelog)
+* [TODO](#todo)
 * [License](#license)
 ## 
 
@@ -24,6 +25,9 @@ If I find a better solution, I'll include it in Version 3.
 **v2.0** - This version introduced IP checking and did away with HTML5 canvas data extraction.
 
 **v1.0** - This version [(gist.github.com)](https://gist.github.com/chrisdavidmiles/923b03766e02c2a1c077eb85672efb36) would try and detect the official tor browser by checking if HTML5 canvas data extraction was blocked by default.
+
+### TODO
+ * Publish "Usage" section in `README.md`
 
 ### License
 This project is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/gpl-2.0.html)
