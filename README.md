@@ -19,14 +19,11 @@ If I find a better solution, I'll include it in Version 3.
 
 ### Changelog
 
-#### v2.1
-This version is the first version to be published on Github. This version also added `generator.sh` so that the exit node IP list in tor-redirect.js can automatically stay up to date.
+**v2.1** - This version is the first version to be published on Github. This version also added `generator.sh` so that the exit node IP list in tor-redirect.js can automatically stay up to date.
 
-#### v2.0
-This version introduced IP checking and did away with HTML5 canvas data extraction.
+**v2.0** - This version introduced IP checking and did away with HTML5 canvas data extraction.
 
-#### v1.0
-This version [(gist.github.com)](https://gist.github.com/chrisdavidmiles/923b03766e02c2a1c077eb85672efb36) would try and detect the official tor browser by checking if HTML5 canvas data extraction was blocked by default.
+**v1.0** - This version [(gist.github.com)](https://gist.github.com/chrisdavidmiles/923b03766e02c2a1c077eb85672efb36) would try and detect the official tor browser by checking if HTML5 canvas data extraction was blocked by default.
 
 ### License
 This project is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/gpl-2.0.html)
