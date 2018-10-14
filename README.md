@@ -19,7 +19,7 @@ If I find a better solution, I'll include it in Version 3.
 
 ### Changelog
 
-**v2.1** - This version is the first version to be published on Github. This version also added `generator.sh` so that the exit node IP list in tor-redirect.js can automatically stay up to date.
+**v2.1** - This version is the first version to be published on Github. This version also added `generator.sh` so that the exit node IP list in `tor-redirect.js` can automatically stay up to date.
 
 **v2.0** - This version introduced IP checking and did away with HTML5 canvas data extraction.
 
