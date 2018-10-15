@@ -1,5 +1,4 @@
-# tor-redirect.js &middot; [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-blue.svg)](https://github.com/chrisdavidmiles/tor-redirect.js/blob/master/LICENSE)
-
+# ![logo](https://github.com/chrisdavidmiles/tor-redirect.js/blob/master/assets/onion.svg) tor-redirect.js  &middot; [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-blue.svg)](https://github.com/chrisdavidmiles/tor-redirect.js/blob/master/LICENSE)
 Redirect TOR traffic on your website from a clearnet domain to a TOR hidden service using client-side JavaScript. The basic premise is that a list of IPs are periodically scraped from TorProject.org's [TorBulkExitList](https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1) which is then used to generate a JavaScript file that will redirect users connecting from an exit node in the list.
 
 * [Usage](#usage)
