@@ -20,7 +20,7 @@ This can be done in a variety of ways. For example, you can use [L2.IO](https://
 ```html
 <script type="text/javascript" src="https://l2.io/ip.js?var=vip"></script>
 ```
-If you prefer to self-host the IP checker, you can do that as well. If your applicated is PHP based for example, you can include [print-ip.php](https://github.com/chrisdavidmiles/tor-redirect.js/blob/master/print-ip.php) in your header.
+If you prefer to self-host the IP checker, you can do that as well. If your applicated is PHP based for example, you can include [print-ip.php](https://github.com/chrisdavidmiles/tor-redirect.js/blob/master/assets/print-ip.php) in your header.
 ```html
 <!DOCTYPE html>
 <html lang="en">
