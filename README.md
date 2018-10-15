@@ -2,7 +2,7 @@
 
 Redirect TOR traffic on your website from a clearnet domain to a TOR hidden service using client-side JavaScript. The basic premise is that a list of IPs are periodically scraped from TorProject.org's [TorBulkExitList](https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1) which is then used to generate a JavaScript file that will redirect users connecting from an exit node in the list.
 
-* [Usage](#issues)
+* [Usage](#usage)
 * [Issues](#issues)
 * [Changelog](#changelog)
 * [License](#license)
