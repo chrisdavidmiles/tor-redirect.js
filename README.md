@@ -30,7 +30,7 @@ If you prefer to self-host the IP checker, you can do that as well. If your appl
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include('./print-ip.php'); ?>
 ```
-Whatever method you use, just be sure that there is a unique JavaScript variable that is set to visitor's IP address on page load, and that that the variable has a global scope.
+Whatever method you use, just be sure that there is a unique JavaScript variable that is set to visitor's IP address. The variable must have a global scope, and needs to be available before tor-redirect.js runs.
 ### Customizing template.js
 **Required settings:**
 You will need to set your clear net domain name and your onion domain name in the template.js file 
