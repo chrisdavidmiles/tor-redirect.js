@@ -5,7 +5,7 @@
  *
  * Copyright 2018 Chris David Miles
  * Free to use under the GPLv2 license.
- * http://www.gnu.org/licenses/gpl-2.0.html
+ * https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 var clearnetdomain = 'your-domain-here.com';
