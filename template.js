@@ -1,5 +1,5 @@
 /*!
- * tor-redirect.js v2.1 | https://git.io/fxR2i
+ * tor-redirect.js v2.1 | https://git.io/tor-redirect
  * Redirect website traffic coming from the TOR network to a specified tor hidden service. 
  * Tor IP list last updated #DATE#.
  *
