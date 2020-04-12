@@ -6,8 +6,10 @@ torSourceFile="template.js";
 torOutputFile="tor-redirect.js";
 ProductionDir="/var/www/website/path/here/";
 
+# DATE FORMAT
+torLastUpdate=$(date -u)
+
 # GET INFO FROM TORPROJECT.ORG
-torLastUpdate=$(curl --silent https://check.torproject.org/torbulkexitlist?ip=1.1.1.1 | grep 'This file was generated on' | sed 's/\# This file was generated on //g;s/ \#//g')
 torExitIPList=$(curl --silent https://check.torproject.org/torbulkexitlist?ip=1.1.1.1 | grep -v "#" | sort -u | awk '{print "\"" $1 "\","}' | tr -d "\n" | sed 's/.$//')
 
 # COMPILE OUTPUT FILE
