@@ -3,7 +3,7 @@
  * Redirect website traffic coming from the TOR network to a specified tor hidden service. 
  * Tor IP list last updated #DATE#.
  *
- * Copyright 2018 Chris David Miles
+ * Copyright 2020 Chris David Miles
  * Free to use under the GPLv2 license.
  * https://www.gnu.org/licenses/gpl-2.0.html
  */
